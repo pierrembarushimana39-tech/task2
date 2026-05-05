@@ -1,0 +1,22 @@
+{
+  "name": "agriconnect-platform",
+  "version": "1.0.0",
+  "description": "Agriconnect Platform - Node.js Express application with EJS templates for agricultural services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.22.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
